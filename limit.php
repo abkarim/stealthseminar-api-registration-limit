@@ -2,8 +2,9 @@
 ignore_user_abort(true);
 header("Cache-Control: no-cache");
 header("content-type: application/json");
-header("Access-Control-Allow-Methods:  OPTIONS, POST");
-header("Access-Control-Allow-Origin: '*'"); // Origin
+header("Access-Control-Allow-Methods:  'OPTIONS, POST'");
+header("Access-Control-Allow-Origin: *"); // Origin
+header("Access-Control-Allow-Headers: 'Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers'");
 
 $webinarShortId           = ""; // Webinar short id
 $validateWithEMail        = true; // email duplication handling

@@ -7,7 +7,8 @@ This project control how many times a user can register for a webinar using a em
 - Limit registration by IP address
 - Client's IP in custom filed added automatically
 
-
+## Required module
+- CURL
 
 ## Usage
 #### Add file to server
